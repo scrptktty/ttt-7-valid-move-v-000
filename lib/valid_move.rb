@@ -1,4 +1,4 @@
-def some_new_fabulous_method
+def valid_move
     if position_taken? == between?(board[0], board[8])
         return board[index]
     else
