@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-    if between?(board[0], board[8]) == true
+    if index.between?(0, ]) == true
         return board[index]
     else
         return false
